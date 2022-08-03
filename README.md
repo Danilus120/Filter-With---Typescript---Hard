@@ -1,4 +1,4 @@
-# FilterWith - Typescript - Hard
+# deepSearch - Typescript - Hard
 
 ## Table of contents
 
@@ -10,7 +10,7 @@
 
 ## ℹ️ General info
 
-Filter With task.
+deepSearch task.
 
 ## 🎉 Project Overview
 
