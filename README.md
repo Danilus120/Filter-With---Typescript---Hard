@@ -10,7 +10,7 @@
 
 ## ℹ️ General info
 
-Filter With task from mentor.
+Filter With task.
 
 ## 🎉 Project Overview
 
