@@ -1,4 +1,4 @@
-# deepSearch - Typescript - Hard
+# DeepSearch - Typescript - Hard
 
 ## Table of contents
 
@@ -6,11 +6,12 @@
 - 🎉[Project overview](#-project-overview)
 - 📖 [What I learned during this project?](#-what-i-learned-during-this-project)
 - ⚙️ [Technologies](#️-technologies-used-in-project)
+- 📜 [Available scripts](#-available-scripts)
 - 💾 [Installation](#-installation)
 
 ## ℹ️ General info
 
-deepSearch task.
+DeepSearch task.
 
 ## 🎉 Project Overview
 
@@ -18,13 +19,14 @@ I was tasked with creating a program that, regardless of the size and depth of t
 
 ## 📖 What I learned during this project?
 
-As part of this project, I assimilated more of the concept of recursion
+As part of this project, I practiced the application of the concept of recursion and wrote unit tests
 
 ## ⚙️ Technologies used in project:
 
 | Tech                                          | Description                  |
 | --------------------------------------------- | ---------------------------- |
 | [Typescript](https://www.typescriptlang.org/) | Javascript superset language |
+| [Jest](https://jestjs.io/)                    | JavaScript Testing Framework |
 | [Eslint](https://eslint.org/)                 | Javascript Linter            |
 | [Prettier](https://prettier.io/)              | Code formatter               |
 
@@ -33,12 +35,21 @@ As part of this project, I assimilated more of the concept of recursion
 To run this project, install it locally using npm:
 
 ```
-git clone https://github.com/Danilus120/Chatbot.git
+git clone https://github.com/Danilus120/deepSearch-Typescript-Hard
 
-npm i -g typescript
+npm install
 
-tsc index.ts
+npm run test
 
-node index.js
+npm run build
 
+npm run check
 ```
+
+## 📜 Available scripts
+
+| Command         | Description                     |
+| --------------- | ------------------------------- |
+| `npm run build` | Create optimized build          |
+| `npm run test`  | Running tests for whole project |
+| `npm run check` | Launches the program            |

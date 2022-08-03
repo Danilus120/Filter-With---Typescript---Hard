@@ -28,6 +28,7 @@ function deepSearch<T>(arrayWithObjectValues: T[], phraseToFind: string) {
   }, [] as T[]);
 }
 
-console.log("======veniam======");
-const res = deepSearch(arrayOfObjects, "veniam");
-console.log(res);
+console.log("Searching phrase: ===== nisi =====");
+console.log(deepSearch(arrayOfObjects, "nisi"));
+
+export { changeObjectToFlatArray, deepSearch };
