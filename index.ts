@@ -16,7 +16,7 @@ function changeObjectToFlatArray<T>(accumulator: T[], currentValue: T): T[] {
   return accumulator;
 }
 
-function filterWith<T>(arrayWithObjectValues: T[], phraseToFind: string) {
+function deepSearch<T>(arrayWithObjectValues: T[], phraseToFind: string) {
   const regexp: any = new RegExp(phraseToFind, "i");
 
   return arrayWithObjectValues.reduce((acc, curr) => {
@@ -28,14 +28,6 @@ function filterWith<T>(arrayWithObjectValues: T[], phraseToFind: string) {
   }, [] as T[]);
 }
 
-// console.log("======CUMMINGS BAXTER======");
-// const res = filterWith(arrayOfObjects, "Cummings Baxter");
-// console.log(res);
-
 console.log("======veniam======");
-const res2 = filterWith(arrayOfObjects, "veniam");
-console.log(res2);
-
-// console.log("======Delacruz Acevedo======");
-// const res3 = filterWith(arrayOfObjects, "Delacruz Acevedo");
-// console.log(res3);
+const res = deepSearch(arrayOfObjects, "veniam");
+console.log(res);

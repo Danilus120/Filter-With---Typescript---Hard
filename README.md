@@ -14,7 +14,7 @@ Filter With task from mentor.
 
 ## 🎉 Project Overview
 
-I was tasked with creating a program that, regardless of the size and depth of the objects, would search them in relation to the phrase given by the user.
+I was tasked with creating a program that, regardless of the size and depth of the objects in the array, would search the entire object against the keyword. If the keyword is found in an object, the entire object is added to the array, which at the very end is returned with all objects containing the keyword.
 
 ## 📖 What I learned during this project?
 
